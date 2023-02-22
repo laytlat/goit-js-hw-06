@@ -7,7 +7,7 @@ formEl.addEventListener('submit', onFormSubmit);
 function onFormSubmit(event) {
   event.preventDefault();
 
-  if (emailInputEl.value == '' || passwordInputEl.value == '') {
+  if (emailInputEl.value === '' || passwordInputEl.value === '') {
     alert('Всі поля мають бути заповнені');
     return;
   }
